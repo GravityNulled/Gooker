@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Announcment from "./Components/Announcment/Announcment";
+import FlashDeals from "./Components/FlashDeals/FlashDeals";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import Main from "./Components/Main/Main";
@@ -10,6 +10,7 @@ function App() {
     <div className="App">
       <Header />
       <Main />
+      <FlashDeals />
     </div>
   );
 }
