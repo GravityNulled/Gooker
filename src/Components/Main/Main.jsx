@@ -7,7 +7,7 @@ import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper";
 const Main = () => {
   return (
-    <section className="pt-10">
+    <section className="pt-10 bg-blue-50">
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           <Categories />
